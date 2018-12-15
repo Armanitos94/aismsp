@@ -315,7 +315,7 @@ textarea:focus {
 	#slider .caption {
 		position: absolute;
 		width: 173px;
-    	top: 39%;
+    	top: 42%;
 	}
 
 	#slider .caption h2 {
@@ -343,8 +343,8 @@ textarea:focus {
 @media screen and (min-width: 521px) and (max-width: 980px) {
 	#slider .caption {
 		position: absolute;
-		width: 450px;
-		top: 50%;
+		width: 173px;
+    	top: 42%;
 	}
 
 	#slider .caption h2 {
