@@ -447,7 +447,7 @@ textarea:focus {
 }
 
 #about .about-right-boot:before {
-	content: "\f080";
+	content: "\f132";
 	font-family: 'FontAwesome';
 	font-size: 45px;
 	padding: 65px 30px 0 0;
@@ -479,7 +479,7 @@ textarea:focus {
 }
 
 #about .about-right-best:before {
-	content: "\f201";
+	content: "\f0b1";
 	font-family: 'FontAwesome';
 	font-size: 45px;
 	padding: 65px 30px 0 0;
@@ -488,7 +488,7 @@ textarea:focus {
 }
 
 #about .about-right-support:before {
-	content: "\f025";
+	content: "\f19c";
 	font-family: 'FontAwesome';
 	font-size: 45px;
 	padding: 65px 30px 0 0;
@@ -763,7 +763,7 @@ textarea:focus {
 
 .services-style-one .outer-box {
 	position: relative;
-	background: #1c1c1c;
+	background: #623b2a;
 }
 
 .services-style-one .services-column {
@@ -795,7 +795,7 @@ textarea:focus {
 .services-style-one .services-column h4 {
 	font-size: 14px;
 	margin-bottom: 10px;
-	color: #1c1c1c;	
+	color: #623b2a;	
 }
 
 .services-style-one .services-column .text {
@@ -808,7 +808,7 @@ textarea:focus {
 	position: relative;
 	float: left;
 	width: 50%;
-	background: #1c1c1c;
+	background: #623b2a;
 	text-align: right;
 }
 
@@ -835,7 +835,7 @@ textarea:focus {
 .services-style-one .content-column .text {
 	position: relative;
 	margin: 30px 0;
-	color: #999999;
+	color: #fff;
 	line-height: 25px;
 }
 
@@ -853,7 +853,7 @@ textarea:focus {
 
 /*Service Footer*/
 #service .service-footer {
-	background: #623b2a;
+	background: #411e0a;
 	padding: 30px 0;
 }
 
@@ -870,7 +870,7 @@ textarea:focus {
 
 #service .service-footer-left p {
 	font-size: 16px;
-	color: #9d9d9d;
+	color: #fff;
 }
 
 #service .service-footer-right {
@@ -1291,4 +1291,9 @@ textarea:focus {
 .login, .login:hover, .login:active {
 	color: #ffffff !important;
     background-color: #623b2a !important;
+}
+
+.navbar-brand {
+    width: 170px;
+    margin: -15px;
 }
