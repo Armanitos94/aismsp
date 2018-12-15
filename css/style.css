@@ -13,6 +13,8 @@ body {
 	font-smooth: always;
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
+	color: #e04e39;
+
 }
 
 a {
@@ -75,8 +77,6 @@ textarea:focus {
 	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
 	font-weight: 600;
-	width: 120px;
-	height: 40px;
 	-moz-border-radius: 0;
 	-webkit-border-radius: 0;
 	border-radius: 0;
@@ -292,8 +292,7 @@ textarea:focus {
 	color: #b98868;
 }
 
-#slider .caption button {
-	font-family: 'Josefin Sans', sans-serif;
+#slider .caption a {
 	font-weight: 700;
 	font-size: 17px;
 	margin-top: 20px;
@@ -302,7 +301,7 @@ textarea:focus {
 	border: 1px solid #fff;
 }
 
-#slider .caption button:hover {
+#slider .caption a:hover {
 	background-color: #fff;
     border: 1px solid #b98868;
     transition: 0.3s;
@@ -399,7 +398,7 @@ textarea:focus {
 
 /*About*/
 #about {
-	padding: 80px;
+	padding: 40px;
 }
 
 #about .about-heading {
@@ -407,10 +406,9 @@ textarea:focus {
 }
 
 #about .about-heading h2 {
-	font-family: 'Josefin Sans', sans-serif;
-	font-weight: 700;
-	font-size: 45px;
-	text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
 }
 
 #about .about-heading p {
@@ -444,7 +442,8 @@ textarea:focus {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 	padding-top: 100px;
-	text-transform: uppercase;
+    font-size: 30px;
+    color: #222222;
 }
 
 #about .about-right-boot:before {
@@ -731,7 +730,6 @@ textarea:focus {
 
 /*Service*/
 #service {
-	margin-top: 100px;
 	background-attachment: scroll;
     padding-bottom: 0px;
     padding-top: 0px;
@@ -747,10 +745,9 @@ textarea:focus {
 }
 
 #service .service-heading h2 {
-	font-family: 'Josefin Sans', sans-serif;
-	font-weight: 700;
-	font-size: 45px;
-	text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
 }
 
 #service .service-heading p {
@@ -856,7 +853,7 @@ textarea:focus {
 
 /*Service Footer*/
 #service .service-footer {
-	background: #222222;
+	background: #623b2a;
 	padding: 30px 0;
 }
 
@@ -881,14 +878,12 @@ textarea:focus {
 	line-height: 80px;
 }
 
-#service .service-footer-right button {
+#service .service-footer-right a {
 	background-color: #b98868;
-	width: 180px;
-	height: 50px;
 	color: #fff;
 }
 
-#service .service-footer-right button:hover {
+#service .service-footer-right a:hover {
 	background-color: #fff;
 	color: #b98868;
 }
@@ -1042,6 +1037,7 @@ textarea:focus {
 /*Contact*/
 #contact {
 	margin-top: 100px;
+	margin-bottom: 50px;
 }
 
 #contact .contact-heading {
@@ -1049,17 +1045,15 @@ textarea:focus {
 }
 
 #contact .contact-heading h2 {
-	font-family: 'Josefin Sans', sans-serif;
-	font-weight: 700;
-	font-size: 45px;
-	text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
 }
 
 #contact .contact-heading p {
 	margin-top: 20px;
 	line-height: 25px;
 	color: #8e8e8e;
-	margin-bottom: 50px;
 }
 
 .validation {
@@ -1281,16 +1275,20 @@ textarea:focus {
 
 /*Bottom Footer*/
 #bottom-footer {
-	background-color: #282828;
+	background-color: #623b2a;
 	padding: 20px 0;
-	color: #8e8e8e;
+	color: #fff;
 }
 
 #bottom-footer .footer-right ul > li > a {
-	color: #8e8e8e;
+	color: #fff;
 }
 
 #bottom-footer .footer-right ul > li > a:hover {
-	color: #b98868;
+	color: #fff;
 }
 
+.login, .login:hover, .login:active {
+	color: #ffffff !important;
+    background-color: #623b2a !important;
+}
