@@ -270,6 +270,7 @@ textarea:focus {
 	position: absolute;
 	width: 600px;
 	top: 50%;
+	background-color: #623b2a;
 }
 
 #slider .caption h2 {
@@ -281,7 +282,6 @@ textarea:focus {
 
 #slider .caption span {
 	padding: 0 10px;
-	background-color: #b98868;
 	color: #fff;
 }
 
